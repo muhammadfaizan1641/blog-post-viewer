@@ -1,12 +1,47 @@
-# React + Vite
+# Blog Post Viewer – React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that displays a list of blog posts. Users can search through the posts and view or hide their full content using buttons. The app is built using core React concepts like components, props, and hooks.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Component-based structure using `App`, `PostList`, and `Post` components.
+- Real-time search functionality: Search posts by title or content.
+- Each blog post has a toggle button to show or hide its full content.
+- React hooks like `useState` are used for managing state (search input and post visibility).
+- Clean and minimal styling using inline CSS.
 
-## Expanding the ESLint configuration
+## File Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `App.js`: Main component that holds the blog post data and handles the search logic.
+- `PostList.js`: Receives filtered posts and maps over them to render each post.
+- `Post.js`: Displays a single post with a button to toggle visibility of content.
+
+## Technologies Used
+
+- React (Functional Components)
+- JavaScript
+- JSX
+- Inline CSS for simple layout
+
+## How to Run
+
+1. Make sure you have Node.js and npm installed.
+2. Clone this repository or download the project files.
+3. Open the terminal and navigate to the project directory.
+4. Run `npm install` to install dependencies.
+5. Run `npm start` to launch the development server.
+6. Open your browser and go to `http://localhost:3000`.
+
+## What You'll Learn from This Project
+
+- How to structure a React app using components.
+- How to use `useState` for state management.
+- How to filter data in real-time based on user input.
+- How to pass props between components.
+- How to conditionally render elements in React.
+
+## Author
+
+Mohd Faizan  
+B.Tech CSE Student | Learning Full Stack Web Development
+
